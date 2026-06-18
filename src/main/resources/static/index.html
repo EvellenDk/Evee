@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SAEPSaude</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" >
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="app-container">
+            <aside class="sidebar">
+                <div class="profile-section">
+                    <img id="profile-img" src="assets/logo_saepsaude/SAEPSaude.png" alt="Profile" class="profile-image">
+                    <h2 id="profile-name">SAEPSaude</h2>
+                    <div class="stats">
+                        <div class="stat-box"><span id="total-activities" class="stat-number">0</span><span class="stat-label">Qtd. Atividades</span></div>
+                        <div class="stat-box"><span id="total-calories" class="stat-number">0</span><span class="stat-label">Qtd. Calorias</span></div>
+                    </div>
+                    <button id="btn-create-activity" class="btn-create">Criar Atividade</button>
+                </div>
+            </aside>
+    
+            <main class="main-content">
+                <header class="main-header">
+                    <button id="btn-auth" class="btn-login">Login</button>
+                </header>
+    
+                <div class="filters">
+                    <button class="filter-btn" data-type="corrida">Corrida</button>
+                    <button class="filter-btn" data-type="caminhada">Caminhada</button>
+                    <button class="filter-btn" data-type="trilha">Trilha</button>
+                </div>
+            </main>
+        </div>
+    
+        <script src="js/app.js"></script>
+    </body>
+    </html>
